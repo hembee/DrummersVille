@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Nav from "../components/Nav";
-import { AiOutlineClockCircle, AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineClockCircle, AiOutlineSearch, AiFillPlayCircle } from "react-icons/ai";
 import styles from "../styles/episode.module.css";
 import episodes from "../utilities/episodes.json";
 
@@ -58,9 +58,262 @@ const episode = () => {
             <input type="text" placeholder="Search Podcast" id="" />
           </div>
         </div>
-
-        <div className={styles.bottom}>
-          <h2>Episodes</h2>
+      </section>
+      <section className={styles.episodesSec}>
+        <h1>Episodes</h1>
+        <div className={styles.epiSecOption}>
+           <div className={styles.epiCont}>
+              <img src="/dv13.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Bringing back the tradition</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv14.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Good Music: The myth and legend</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv15.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Druid’s Podcasts, the mere feeling</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv13.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Bringing back the tradition</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv14.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Good Music: The myth and legend</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv15.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Druid’s Podcasts, the mere feeling</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv13.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Bringing back the tradition</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv14.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Good Music: The myth and legend</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv15.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Druid’s Podcasts, the mere feeling</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv13.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Bringing back the tradition</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv14.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Good Music: The myth and legend</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv15.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Druid’s Podcasts, the mere feeling</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv13.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Bringing back the tradition</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv14.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Good Music: The myth and legend</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv15.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Druid’s Podcasts, the mere feeling</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv13.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Bringing back the tradition</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv14.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Good Music: The myth and legend</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
+           <div className={styles.epiCont}>
+              <img src="/dv15.png" alt="" />
+              <div className={styles.epiText}>
+                <h3>Druid’s Podcasts, the mere feeling</h3>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button>
+                  <AiFillPlayCircle />
+                  Play
+                </button>
+              </div>
+            </div>
         </div>
       </section>
     </div>
