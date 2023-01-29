@@ -3,18 +3,18 @@ import Nav from "../components/Nav";
 import { AiOutlineClockCircle, AiOutlineSearch, AiFillPlayCircle } from "react-icons/ai";
 import styles from "../styles/episode.module.css";
 import episodes from "../utilities/episodes.json";
+import Footer from "../components/Footer";
 
 const episode = () => {
-  const [latest, setLatest] = useState([]);
+  // const [latest, setLatest] = useState([]);
 
-  useEffect(() => {
+  // useEffect(() => {
     
-  }, []);
+  // }, []);
 
   return (
     <div className={styles.episode}>
       <Nav />
-
       <section className={styles.header}>
         <button>Latest</button>
 
@@ -316,6 +316,16 @@ const episode = () => {
             </div>
         </div>
       </section>
+      <section className={styles.pageNav}>
+        <p>Prev</p>
+        <p className={styles.pageNavNum}>1</p>
+        <p className={styles.pageNavNum}>2</p>
+        <p className={styles.pageNavNum}>3</p>
+        <p className={styles.pageNavNum}>4</p>
+        <p className={styles.pageNavNum}>...</p>
+        <p className={styles.next}>Next</p>
+      </section>
+      <Footer/>
     </div>
   );
 };
