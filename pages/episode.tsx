@@ -21,8 +21,7 @@ const episode = () => {
         <div className={styles.text}>
           <h2>Druid’s Podcasts, the mere feeling</h2>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the <br /> readable content of a page when looking at its layout.
+            It is a long established fact that a rea...
           </p>
           <div className={styles.time}>
             <AiOutlineClockCircle />
@@ -67,8 +66,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Bringing back the tradition</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -81,8 +79,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Good Music: The myth and legend</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -95,8 +92,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Druid’s Podcasts, the mere feeling</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -109,8 +105,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Bringing back the tradition</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -123,8 +118,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Good Music: The myth and legend</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -137,8 +131,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Druid’s Podcasts, the mere feeling</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -151,8 +144,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Bringing back the tradition</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -165,8 +157,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Good Music: The myth and legend</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -179,8 +170,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Druid’s Podcasts, the mere feeling</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -193,8 +183,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Bringing back the tradition</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -207,8 +196,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Good Music: The myth and legend</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -221,8 +209,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Druid’s Podcasts, the mere feeling</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -235,8 +222,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Bringing back the tradition</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -249,8 +235,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Good Music: The myth and legend</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -263,8 +248,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Druid’s Podcasts, the mere feeling</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -277,8 +261,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Bringing back the tradition</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -291,8 +274,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Good Music: The myth and legend</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />
@@ -305,8 +287,7 @@ const episode = () => {
               <div className={styles.epiText}>
                 <h3>Druid’s Podcasts, the mere feeling</h3>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
+                  It is a long established fact that a reader...
                 </p>
                 <button>
                   <AiFillPlayCircle />

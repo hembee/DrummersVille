@@ -206,15 +206,14 @@
 
 .epiCont {
   width: 364px;
-  /* height: 200px; */
+  height: 100%;
   border-radius: 24px;
 }
 
 .epiCont img {
   border-radius: 24px 24px 0px 0px;
-  height: 50%;
+  height: 200px;
   width: 100%;
-  /* object-fit: contain; */
 }
 
 .epiText {
@@ -295,18 +294,19 @@
   color: #ffffff;
 }
 
-@media (max-width: 1440px) {
-  .images {
-    width: 100%;
-  }
-}
-
 @media (max-width: 1140px) {
   .header,
-  .episodesSec,
+  .epiSecOption,
   .pageNav {
     width: 98%;
+    justify-content: center;
   }
+  
+  .episodesSec h1{
+    margin-left: 15px;
+  }
+
+
 }
 @media (max-width: 1024px) {
   .text h2{
@@ -318,6 +318,17 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
+    border: 1px solid;
+    -webkit-text-stroke-color: linear-gradient(90deg, #E8B41C 0%, #E84E1C 100%);
+  }
+  .episodesSec h1{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    opacity: 0.5; 
+  } 
+  .text {
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
@@ -326,5 +337,18 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.001em;
+  }
+}
+
+@media (max-width: 768px) {
+    .podcast {
+    margin-bottom: 4em;
+  }
+  .podcast img {
+    height: 23px;
+  }
+  .episodeMap{
+    width: 98%;
+    padding: 10px;
   }
 }
